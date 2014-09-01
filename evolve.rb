@@ -1,13 +1,13 @@
 require 'set'
 
 sides = 4
-popsize = 50
+popsize = 100
 iters = 50
 
 mutate_chance = 20
 number_of_children = popsize / 2
 
-srand 1
+srand 
 
 $words = []
 
